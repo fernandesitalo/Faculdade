@@ -1,0 +1,42 @@
+#
+# Generated backup file, do not edit.
+#
+# Originally at: F:/NOME_italo
+# 19-09-06  08:05:21
+#
+>>SYSTEM_ID:
+VIRTUAL_USE
+
+>>PRODUCTS_ID:
+RobotWare Version: 5.15.0266.00
+
+  RW Control module key
+  RobotWare OS and English
+  RW Drive module 1 key
+  ABB standard manipulator
+  IRB 120
+  120-0.58/3
+  Drive System 04 120/140/1400
+  RC1 No add drive
+
+>>ROBOT_TYPE:
+120-0.58/3
+
+>>HOME:
+All public files and directories
+
+>>SYSPAR:
+SYS.cfg
+PROC.cfg
+EIO.cfg
+SIO.cfg
+MOC.cfg
+MMC.cfg
+
+
+>>TASK1: (T_ROB1,NewProgramName,)
+SYSMOD\user.sys @ user.sys
+PROGMOD\MainModule.mod @ mainmodule.mod
+
+
+>>EOF:

@@ -1,0 +1,32 @@
+REGISTRADORES 
+
+=> EAX  
+    - é um registrador de 4 bytes (1 byte ---> 8 bits)
+    - é subdividido em:
+            ->ax (2 bytes)
+            ->al (1 byte )
+            ->ah (1 byte )
+
+=> O MESMO SERVE PARA O EBX,ECX,EDX...
+SENDO:  
+    - EBX(bx,bl,bh)
+    - ECX(cx,cl,ch)
+    - EDX(dx,dl,dh)     
+
+
+
+Registradores de dados
+
+Usado de forma geral no programa, para várias operações. Embora possam ser utilizados em outras ocasiões, cada um desses registradores foram feitos para tarefas específicas.
+
+AX - Registrador Acumulador, usado para operações aritméticas.
+BX - Registrador de Base, usado para indexar endereços na memória.
+CX - Registrador Contador, usado para contagem usando a instrução de loop.
+DX - Registrador de Dados, usado para armazenar dados de forma geral. Seja para cálculos ou operações de [I/O].
+Esses registradores na verdade são uma junção de dois registradores de 8bits, somando ao todo 16bits. Eles são AH, AL, BH, BL, CH, CL, DH, DL.
+
+Também existem versões de 32 e 64bits desses registradores. Onde eles são:
+
+32 bits - EAX, EBX, ECX, EDX
+64 bits - RAX, RBX, RCX, RDX
+

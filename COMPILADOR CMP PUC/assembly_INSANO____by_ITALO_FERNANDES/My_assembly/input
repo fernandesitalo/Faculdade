@@ -1,0 +1,24 @@
+mov r2 5
+mov r3 5
+sub r1 r2 r3
+print r1
+add r1 r2 r3
+print r1
+mov r3 1
+mov r2 r1
+jne r3 r1 r2
+div r1 r2 r3
+print r1
+mod r1 r2 r3
+print r1
+mul r1 r2 r3
+print r1
+pot r1 r2 r3
+print r1
+mov r1 6
+print r1
+mov r1 100
+push r1
+pop r3
+add r1 r1 r3
+print r1

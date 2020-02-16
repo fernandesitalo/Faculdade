@@ -1,0 +1,11 @@
+
+cmp ax, 100  
+je E_Igual
+jne E_diferente
+jl  E_menor_que_100
+jg E_maior_que_100
+jle E_menor_ou_igual
+jge E_maior_ou_igual
+
+
+

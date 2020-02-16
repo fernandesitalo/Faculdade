@@ -1,0 +1,14 @@
+intrucoes para compilar executar:
+
+(coloca no arquivo cmp o programa na nossa linguagem)
+
+bison -d parser.y
+flex task.l
+g++ parser.tab.c lex.yy.c
+./a.out > entrada.cmp
+
+agora eh so compilar&executar o arquivo 'main' normal ..
+ 
+sucesso!
+tchau
+

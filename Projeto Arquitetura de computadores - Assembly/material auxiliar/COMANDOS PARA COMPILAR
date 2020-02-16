@@ -1,0 +1,14 @@
+
+
+PARA COMPILAR EM C++:
+	gcc <nome>.cc -o <nomeExecultavel>
+PARA EXECULTAR EM C++
+	./<nomeExecultavel>		
+
+
+
+
+PARA COMPILAR EM JAVA:
+	javac <nome>.java
+PARA EXECULTAR EM JAVA:
+	java <nome>

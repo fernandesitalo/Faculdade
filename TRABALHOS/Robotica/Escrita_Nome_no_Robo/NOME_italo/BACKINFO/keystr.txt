@@ -1,0 +1,3 @@
+#Loaded keys in C:\Users\20161003305420\Documents\RobotStudio\Systems\IRB120_3kg_0.58m_2\INTERNAL\keystr.txt:
+3KKKKKZJJUc34KKKKKKKKh
+zY1cZtllLF	1

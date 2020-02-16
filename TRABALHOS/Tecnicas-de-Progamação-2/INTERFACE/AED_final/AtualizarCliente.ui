@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AtualizarCliente</class>
+ <widget class="QDialog" name="AtualizarCliente">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>691</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QComboBox" name="comboBox">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>-30</y>
+     <width>41</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>A</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>B</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>C</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>D</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>E</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>F</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>G</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>H</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>I</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>J</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>K</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>L</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>M</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>N</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>O</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>P</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Q</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>R</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>S</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>U</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>V</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>W</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>X</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Y</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Z</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QListWidget" name="listWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>40</y>
+     <width>191</width>
+     <height>291</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox_2">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>51</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>A</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>B</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>C</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>D</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>E</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>F</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>G</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>H</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>I</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>J</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>K</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>L</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>M</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>N</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>O</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>P</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Q</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>R</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>S</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>U</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>V</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>W</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>X</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Y</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Z</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>A-Z</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QPushButton" name="atualizarButton">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>340</y>
+     <width>231</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+     <weight>50</weight>
+     <italic>true</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string>ATUALIZAR 
+CADRASTRO</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="cancelarButton">
+   <property name="geometry">
+    <rect>
+     <x>470</x>
+     <y>340</y>
+     <width>211</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+     <weight>50</weight>
+     <italic>true</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::WheelFocus</enum>
+   </property>
+   <property name="accessibleDescription">
+    <string/>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>CANCELAR</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="deletarButton">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>340</y>
+     <width>211</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+     <weight>50</weight>
+     <italic>true</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string>APAGAR 
+CADRASTRO</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>40</y>
+     <width>471</width>
+     <height>281</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QLabel" name="label">
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#f9eded;&quot;&gt;Nome/Razão social:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="linenome">
+      <property name="placeholderText">
+       <string/>
+      </property>
+      <property name="clearButtonEnabled">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_2">
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#faf0f0;&quot;&gt;Cpf/Cnpj:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="linecpf"/>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_5">
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#f4eaea;&quot;&gt;Endereço:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="lineendereco"/>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_3">
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#f2e8e8;&quot;&gt;Fone:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="linefone"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>-20</x>
+     <y>-10</y>
+     <width>711</width>
+     <height>421</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/WP4PH4N6.jpg);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <zorder>label_4</zorder>
+  <zorder>comboBox</zorder>
+  <zorder>listWidget</zorder>
+  <zorder>comboBox_2</zorder>
+  <zorder>atualizarButton</zorder>
+  <zorder>cancelarButton</zorder>
+  <zorder>deletarButton</zorder>
+  <zorder>layoutWidget</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

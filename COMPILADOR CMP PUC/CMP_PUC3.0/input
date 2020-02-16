@@ -1,0 +1,23 @@
+[funcao] arroz(){
+	escreva(700000);
+}
+principal{
+	x =  11;
+	sera(11 ~= x){
+		escreva(100000);
+	}
+	nenao{
+		escreva(200000);
+	}
+
+	i = 1;
+	enquanto(10 > i){
+		escreva(i);
+		i = i + 1;
+		
+		sera(i == 7){
+			arroz();
+		}nenao{}
+		
+	}
+}
